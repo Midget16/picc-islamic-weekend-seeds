@@ -70,11 +70,10 @@ export const Schedule = () => {
 
               <div className="mt-10 pt-8 border-t border-border">
                 <div className="text-center space-y-4">
-                  <p className="text-sm text-muted-foreground">
-                    Save yourself time and pay via Zelle to <span className="font-semibold">PICC</span>
-                  </p>
-                  <Button size="lg" className="shadow-medium">
-                    Register Your Child Today
+                  <Button size="lg" className="shadow-medium" asChild>
+                    <a href="https://docs.google.com/forms/d/1MK6azN6AWDYKyiVeWXvXIphEg1gYL3kBs5jr3kKUgyg/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer">
+                      Register Your Child Today
+                    </a>
                   </Button>
                   <p className="text-xs text-muted-foreground">
                     For children ages 5 and up
